@@ -12,6 +12,7 @@ public class LoguinActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_loguin);
     }
+
     public void onClick(View view)
     {
         Intent intent = new Intent(LoguinActivity.this,NavigationDrawerActivity.class);
